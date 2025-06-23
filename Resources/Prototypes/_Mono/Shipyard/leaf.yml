@@ -6,7 +6,7 @@
   id: Leaf
   parent: BaseVessel
   name: MOW Leaf
-  description: An unsurprisingly leaf-shaped botanical vessel. Comes with a whopping 26 trays to maximize growable space, at the cost of walkable space.
+  description: An unsurprisingly leaf-shaped botanical vessel. Comes with a moderate 20 trays. Wine not included.
   price: 38000
   category: Medium
   group: Shipyard
