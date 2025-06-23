@@ -5,7 +5,7 @@
 - type: vessel
   id: Leaf
   parent: BaseVessel
-  name: MOW Leaf
+  name: BBI Leaf
   description: An unsurprisingly leaf-shaped botanical vessel. Comes with a moderate 20 trays. Wine not included.
   price: 38000
   category: Medium
@@ -20,7 +20,7 @@
 
 - type: gameMap
   id: Leaf
-  mapName: 'MOW Leaf'
+  mapName: 'BBI Leaf'
   mapPath: /Maps/_Mono/Shuttles/leaf.yml
   minPlayers: 0
   stations:
