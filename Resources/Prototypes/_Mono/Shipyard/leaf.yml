@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: BBI Leaf
   description: An unsurprisingly leaf-shaped botanical vessel. Comes with a moderate 20 trays. Wine not included.
-  price: 38000
+  price: 40000
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/leaf.yml
