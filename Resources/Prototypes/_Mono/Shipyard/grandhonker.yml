@@ -1,0 +1,42 @@
+# Author Info
+# GitHub: Daunter131
+# Discord: Daunter
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Grandhonker
+  parent: BaseVessel
+  name: SNS Grandhonker
+  description: The Clown Liberation Army's finest ship yet! Coming with a full science suite, chemistry lab, botany, kitchen, stage, and temple!
+  price: 185000
+  category: Large
+  group: Shipyard
+  shuttlePath: /Maps/_Mono/Shuttles/grandhonker.yml
+  guidebookPage: null
+  class:
+  - Science
+  - Botany
+  - Kitchen
+  engine:
+  - Bananium
+
+- type: gameMap
+  id: Grandhonker
+  mapName: 'SNS Grandhonker'
+  mapPath: /Maps/_Mono/Shuttles/grandhonker.yml
+  minPlayers: 0
+  stations:
+    Grandhonker:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Grandhonker CIV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
